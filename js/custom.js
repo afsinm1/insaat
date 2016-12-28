@@ -73,125 +73,20 @@ $( document ).ready(function(){
 	// }
 
 	$( ".radiom" ).click(function(){
-		var deger=$( ".radiom:checked" ).val();
-		if(deger==='undefined'){
-			$(".radiom").parent().nextAll().children("input").prop('disabled', false);
-		}
-		else{
+		var deger=$(".radiom:checked").val();
+		if($('.radiom').is(':checked')){
 			$(this).parent().nextAll().children("input").prop('disabled', false);
 			$(this).parent().prevAll().children("input").prop('disabled', false);
+			$(this).parent().nextAll().children("select").prop('disabled', false);
+			$(this).parent().prevAll().children("select").prop('disabled', false);
+			$(this).parent().nextAll().children("select").css("background","#fff");
+			$(this).parent().prevAll().children("select").css("background","#fff");
+			$(this).parent().parent().nextAll().children().children(".diger").prop('disabled', true);
+			$(this).parent().parent().prevAll().children().children(".diger").prop('disabled', true);
+			$(this).parent().parent().nextAll().children().children("select").css("background","#eee");
+			$(this).parent().parent().prevAll().children().children("select").css("background","#eee");
 		}
 	});
 	
 });
 
-
-function pozAnaliz(str) {
-	window.alert(str);
-    if (str == "") {
-        document.getElementById("pozTable").innerHTML = "TABLO YOK";
-        return;
-    } else { 
-        if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-        } else {
-            // code for IE6, IE5
-            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("pozTable").innerHTML = this.responseText;
-            }
-        };
-        
-        xmlhttp.open("GET","pozAnaliz.php?pozId="+str,true);
-        xmlhttp.send();
-    }
-}
-
-function POZ(s){
-	window.alert(s);
-}
-
-function pozAnalizDetay(str) {
-	window.alert(str);
-    if (str == "") {
-        document.getElementById("pozunAnalizi").innerHTML = "Analiz YOK";
-        return;
-    } else { 
-        if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-        } else {
-            // code for IE6, IE5
-            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("pozunAnalizi").innerHTML = this.responseText;
-            }
-        };
-        
-        xmlhttp.open("GET","pozAnalizDetay.php?pozMainId="+str,true);
-        xmlhttp.send();
-    }
-}
-
-function teklifler(str) {
-	window.alert(str);
-    if (str == "") {
-        document.getElementById("teklif").innerHTML = "Analiz YOK";
-        return;
-    } else { 
-        if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-        } else {
-            // code for IE6, IE5
-            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("teklif").innerHTML = this.responseText;
-            }
-        };
-        
-        xmlhttp.open("GET","teklifler.php?teklifId="+str,true);
-        xmlhttp.send();
-    }
-}
-
-
-function pozDetay(str) {
-	window.alert(str);
-    if (str == "") {
-        document.getElementById("pozDetaylari").innerHTML = "Poz YOK";
-        return;
-    } else { 
-        if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-        } else {
-            // code for IE6, IE5
-            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("pozDetaylari").innerHTML = this.responseText;
-            }
-        };
-        
-        xmlhttp.open("GET","pozDetay.php?pozId="+str,true);
-        xmlhttp.send();
-    }
-}
-
-function pozSec(str){
-	window.alert(str);
-		
-}

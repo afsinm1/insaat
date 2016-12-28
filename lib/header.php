@@ -10,60 +10,60 @@
 	while($satir=mysql_fetch_array($sorgu)) {
 	    $sepetler[$satir['PozID']]=$satir;
 	}
-		////////Maliyet Grubu sorgusu////
-			$sorgu_cumlesi="SELECT *
-							FROM pozlar
-							INNER JOIN poztipi ON pozlar.PozTipi = poztipi.PozTipL
-							INNER JOIN olcubirim ON pozlar.OlcuBirim = olcubirim.BirimKisaAd
-							INNER JOIN analiz ON pozlar.PozID = analiz.MainPozID
-							";
-			$sorgu = mysql_query($sorgu_cumlesi);
-			while($satir=mysql_fetch_array($sorgu)) {
-			    $pozanaliz[$satir['PozID']]=$satir;
-			}
-		/////// sorgu sonu//
-			////////Teklif sorgusu////
-				$sorgu_cumlesi="SELECT TekItemID,TekPozNo,MkkCode,PozTanim,PozTip,MaliyetGrup,PBirimUzunAd,PBirimFiyat,BfTarih,TeklifBirimFiyat,PozFirma,OlcuBirim,TekPozMiktar,TekItemAciklama
-						FROM teklifdetay
-						INNER JOIN pozlar ON pozlar.PozID=teklifdetay.TekPozNo
-						INNER JOIN poztipi ON pozlar.PozTipi = poztipi.PozTipL
-						INNER JOIN parabirim ON pozlar.ParaBirim = parabirim.PBirimKisaAd";
-				$sorgu = mysql_query($sorgu_cumlesi);
-				while($satir=mysql_fetch_array($sorgu)) {
-				    $teklifler[$satir['TekItemID']]=$satir;
-				}
-			/////// sorgu sonu//
-////////Teklif Tablo sorgusu////
+////////Maliyet Grubu sorgusu////
 	$sorgu_cumlesi="SELECT *
-					FROM teklifler";
+					FROM pozlar
+					INNER JOIN poztipi ON pozlar.PozTipi = poztipi.PozTipL
+					INNER JOIN olcubirim ON pozlar.OlcuBirim = olcubirim.BirimKisaAd
+					INNER JOIN analiz ON pozlar.PozID = analiz.MainPozID
+					";
+	$sorgu = mysql_query($sorgu_cumlesi);
+	while($satir=mysql_fetch_array($sorgu)) {
+	    $pozanaliz[$satir['PozID']]=$satir;
+	}
+/////// sorgu sonu//
+////////Teklif sorgusu////
+	$sorgu_cumlesi="SELECT TekPozNo,MkkCode,PozTanim,PozTip,MaliyetGrup,PBirimUzunAd,PBirimFiyat,BfTarih,TeklifBirimFiyat,PozFirma,OlcuBirim,TekPozMiktar,TekItemAciklama
+			FROM teklifdetay
+			INNER JOIN pozlar ON pozlar.PozID=teklifdetay.TekPozNo
+			INNER JOIN poztipi ON pozlar.PozTipi = poztipi.PozTipL
+			INNER JOIN parabirim ON pozlar.ParaBirim = parabirim.PBirimKisaAd";
+	$sorgu = mysql_query($sorgu_cumlesi);
+	while($satir=mysql_fetch_array($sorgu)) {
+	    @$teklifler[$satir['TekItemID']]=$satir;
+	}
+/////// sorgu sonu//
+////////Teklif Tablo sorgusu---bunlara dokunma düzenleme sayfalarında kullanılıyor.////
+	$sorgu_cumlesi="SELECT *
+					FROM teklifler ORDER BY TeklifID ASC";
 	$sorgu = mysql_query($sorgu_cumlesi);
 	while($satir=mysql_fetch_array($sorgu)) {
 	    $teklifs[$satir['TeklifID']]=$satir;
 	}
 /////// sorgu sonu//
 	
-///////Kitaplik sorgusu//
+///////Kitaplik sorgusu---bunlara dokunma düzenleme sayfalarında kullanılıyor.//
 
 	$sorgu_cumlesi="SELECT *
-					FROM bfiyatkitap";
+					FROM bfiyatkitap ORDER BY KitapID ASC";
 	$sorgu = mysql_query($sorgu_cumlesi);
 	while($satir=mysql_fetch_array($sorgu)) {
 	    $kitapliklar[$satir['KitapID']]=$satir;
 	}
 //////////
-///////parabirim sorgusu//
+///////parabirim sorgusu---bunlara dokunma düzenleme sayfalarında kullanılıyor.//
 
 	$sorgu_cumlesi="SELECT *
-					FROM parabirim";
+					FROM parabirim ORDER BY ID ASC";
 	$sorgu = mysql_query($sorgu_cumlesi);
 	while($satir=mysql_fetch_array($sorgu)) {
 	    $paralar[$satir['ID']]=$satir;
 	}
 //////////
-//////Olcubirim sorgusu//
+//////Olcubirim sorgusu---bunlara dokunma düzenleme sayfalarında kullanılıyor.//
 
 	$sorgu_cumlesi="SELECT *
-					FROM olcubirim";
+					FROM olcubirim ORDER BY ID ASC";
 	$sorgu = mysql_query($sorgu_cumlesi);
 	while($satir=mysql_fetch_array($sorgu)) {
 	    $olculer[$satir['ID']]=$satir;
@@ -78,7 +78,6 @@
 	    $pozlar[$satir['ID']]=$satir;
 	}
 //////////
-
 	/*
 	if(isset($_POST['sender'])){
 		$PNO=$_POST['PozNo'];

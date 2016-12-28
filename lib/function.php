@@ -1,6 +1,5 @@
-<?php 
+<?php
 function mesaj($hata=0,$onay=0,$mesaj=0){
-
     if (empty($hata)==false) {
         echo "<div class=\"alert red\">{$hata}</div>";        
     }elseif (empty($onay)==false) {
@@ -10,33 +9,8 @@ function mesaj($hata=0,$onay=0,$mesaj=0){
     }
     
 }
-
 function yonlendir($url=""){/*yonlendirme icin kullandik.*/
     header("Location: {$url}");
-}
-
-function yetki_kontrol () {  /*hersayfanin basinda kontrol edilmeli.*/
-        
-        if(isset($_SESSION['izin'])) {
-            if ($_SESSION['izin']==false) {
-                $hata = "YETKI KALDIRILDI...";
-                yonlendir("giris.php");
-            }else{
-                return true;
-            }
-        }else{
-            $hata = "YETKI BULUNAMADI...";
-            yonlendir("giris.php");
-        }
-}
-
-function CIKIS(){
-    unset($_SESSION['yetki']);
-    unset($_SESSION['name']);
-    unset($_SESSION['surname']);
-    unset($_SESSION['izin']);
-    session_destroy();
-    yonlendir("giris.php");
 }
 
 function varm($parentID,$array){
@@ -46,12 +20,10 @@ function varm($parentID,$array){
             echo '<ul>';
         }
         if (@$array[$i]['MKKParentCode']==$parentID) {
-
             // echo $array[$i]['MKKParentCode']."BU COCUK ".$array[$i]['MKKCode']." ".$parentID." nin COCUGUDUR.</br>_|";
             //bunun cocugu varmi diye bak varmi($array[$i]['pno'],$array);
-           echo "<li class=\"acilirList\"><a href=\"#\"><div class=\"listSimge anim\">+</div>".$array[$i]['MKKCode']." MKK / ".$array[$i]['MKKParentCode']." Parent./".$array[$i]['MKKTanim']."</a>";
+            echo "<li class=\"acilirList\"><a href=\"#\"><div class=\"listSimge anim\">+</div>".$array[$i]['MKKCode']." MKK / ".$array[$i]['MKKParentCode']." Parent./".$array[$i]['MKKTanim']."</a>";
             //echo "<li class=\"acilirList\"><a href=\"#\"><div class=\"listSimge anim\">+</div>".$array[$i]['MKKTanim']."</a>";
-
             varm($array[$i]['MKKCode'],$array); 
             echo '</li>';         
         }else{
@@ -63,6 +35,5 @@ function varm($parentID,$array){
      }
  return 0;
 }
-
 
 ?>
