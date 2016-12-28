@@ -1,0 +1,601 @@
+﻿ID,MKKCode,MKKParentCode,MKKTanim,MKKSeviye
+673,MKK,Root,DiA MKK Kırılımı,0
+674,P01000000,MKK,İNŞAAT İŞLERİ,1
+675,P01100000,P01000000,"Kırım, Yıkım ve demontaj işleri",2
+676,P01101000,P01100000,Kırım işleri,3
+677,P01101001,P01101000,Delme kesme ve imalat kırımları,4
+678,P01101002,P01101000,Rezerve,4
+679,P01102000,P01100000,Yıkım ve demontaj işleri (Saha hazırlık işleri),3
+680,P01102001,P01102000,Yıkım işleri (saha dışına taşımalar dahil),4
+681,P01102002,P01102000,Demontaj işleri (saha dışına taşımalar dahil),4
+682,P01200000,P01000000,Toprak ve Zemin Güçlendirme İşleri,2
+683,P01201000,P01200000,Kazı yapılması,3
+684,P01201001,P01201000,"Makinalı Kazılar (Yumuşak Toprak, Kaya vs her türlü kazı işi)",4
+685,P01201002,P01201000,Elle Kazılar,4
+686,P01202000,P01200000,Dolgu işleri,3
+687,P01202001,P01202000,Dolgu İşleri,4
+688,P01203000,P01200000,Zemin güçlendirme,3
+689,P01203001,P01203000,Jetgrout,4
+690,P01203002,P01203000,Çakma Kazık,4
+691,P01203003,P01203000,Fore Kazık,4
+692,P01209900,P01200000,Diğer,3
+693,P01209999,P01209900,Diğer Toprak İşleri,4
+694,P01300000,P01000000,Betonarme İşleri,2
+695,P01301000,P01300000,Taşıyıcı B/A Sistem (Karkas),3
+696,P01301001,P01301000,Grobeton/harçlar,4
+697,P01301002,P01301000,"Kalıp yapılması (Düz/eğri yüzeyli her tür kalıp, iskelesi dahil)",4
+698,P01301003,P01301000,Betonarme Demiri (Nervürlü/Düz ve değişik çaplarla),4
+699,P01301004,P01301000,"Yapısal Beton (Her tür ve sınıf ; katkıları, koruma önlemleri dahil)",4
+700,P01301005,P01301000,Prekast Elemanlar,4
+701,P01301099,P01301000,Diğer,4
+702,P01400000,P01000000,Çelik ve Metal Konstrüksiyonlar,2
+703,P01401000,P01400000,Yapısal çelik,3
+704,P01401001,P01401000,Uzay kafes sistemler,4
+705,P01401002,P01401000,Yapıda taşıyıcı çelik konstrüksiyon imalatlar,4
+706,P01401003,P01401000,Cephede taşıyıcı çelik konstrüksiyon imalatlar,4
+707,P01401099,P01401000,Diğer yapısal çelik işleri,4
+708,P01402000,P01400000,Taşıyıcı olmayan metal konstrüksiyonlar,3
+709,P01402001,P01402000,Taşıyıcı olmayan çelik işleri (kutu profil benzeri tüm elemanlardan imalatlar),4
+710,P01402099,P01402000,Diğer ikincil çelik işleri,4
+711,P01500000,P01000000,Dış Cephe İşleri,2
+712,P01501000,P01500000,Dış cephe işleri,3
+713,P01501001,P01501000,Cephe macun vb şekilde alt hazırlıklar yapılması,4
+714,P01501002,P01501000,Cephe giydirme sistemleri ( kompozit panel vs mamül sistemler ),4
+715,P01501003,P01501000,"Cephe Doğal Taş, Fibrobeton vb sistemler",4
+716,P01501004,P01501000,Cephe Bakü Taşı kaplamaları,4
+717,P01501005,P01501000,Cephe sıva/boya sistemleri (mantolama sistemleri dahil),4
+718,P01501006,P01501000,Cephe sandviç panel benzeri panel imalatlar,4
+719,P01501007,P01501000,Cam giydirmeler (alüminyum profiller dahil),4
+720,P01501008,P01501000,"Cephe seramik, tuğla kaplamalar",4
+721,P01501099,P01501000,Diğerleri,4
+722,P01600000,P01000000,Çatı İşleri,2
+723,P01601000,P01600000,Çatı işleri,3
+724,P01601001,P01601000,"Eğik çatı konstrüksiyonları (ahşaptan ya da çelikten mamul, OSB vb dahil, izolasyonlar hariç)",4
+725,P01601002,P01601000,"Düz çatı örtüsü kaplamaları (izolasyon hariç,şap dahil)",4
+726,P01601003,P01601000,"Çatı kaplamaları (metal kiremit, kiremit, dekoratif diğer elemanlar vs)",4
+727,P01601004,P01601000,"Çatı oluk,dere vs imalatlar",4
+728,P01601099,P01601000,Diğer Çatı ve Kaplama Giderleri,4
+729,P01700000,P01000000,İnce İşler,2
+730,P01701000,P01700000,Kaba/ince işler (duvarlar ve kaplama hazırlık işleri),3
+731,P01701001,P01701000,Örme Duvarlar (her tür malzemeyle ve kalınlıkta ; harçlar dahil),4
+732,P01701002,P01701000,Bölme Duvarlar (tüm alçıpan vb malzemeyle üretilen ; metal konstrüksiyonlar dahil),4
+733,P01701003,P01701000,Kaba sıva yapılması (setka vs dahil),4
+734,P01701004,P01701000,Duvar giydirmeleri (alçıpan benzeri malzemelerle ; konstrüksiyonları dahil),4
+735,P01701005,P01701000,Perlitli alçı sıva/saten alçı vb yüzey hazırlık işleri (profiller dahil),4
+736,P01701006,P01701000,Şap ve harçlar vb döşeme alt hazırlıkları yapılması,4
+737,P01701007,P01701000,Yükseltilmiş döşeme sistemleri yapılması,4
+738,P01701099,P01701000,Diğerleri,4
+739,P01702000,P01700000,Kaplamalar,3
+740,P01702001,P01702000,Parke (süpürgelikler ilgili kalemde dahil olacaktır),4
+741,P01702002,P01702000,"Seramik-Granit Seramik (yapıştırıcılar , derz dolguları, profiller dahil)",4
+742,P01702003,P01702000,Granit-Mermer-Doğal Taş kaplamalar,4
+743,P01702004,P01702000,PVC/Taraflex/Linolyum benzeri kaplamalar,4
+744,P01702005,P01702000,Özel zemin kaplamaları,4
+745,P01702006,P01702000,Halı,4
+746,P01702007,P01702000,Epoxy kaplamalar,4
+747,P01702008,P01702000,Cam Parke,4
+748,P01702009,P01702000,Mozaik kaplamalar,4
+749,P01702039,P01702000,"Süpürgelikler (parke, mermer,seramik vb toplam olarak)",4
+750,P01702040,P01702000,Diğer zemin kaplamaları,4
+751,P01702041,P01702000,Boya,4
+752,P01702042,P01702000,Duvar Kağıdı,4
+753,P01702043,P01702000,"Ahşap, lambri vb kaplamalar",4
+754,P01702044,P01702000,Kumaş kaplamalar,4
+755,P01702045,P01702000,Süs kolonları vb özel imalatlar,4
+756,P01702046,P01702000,Cam tuğla,4
+757,P01702047,P01702000,Rezerve,4
+758,P01702048,P01702000,Rezerve,4
+759,P01702049,P01702000,Rezerve,4
+760,P01702070,P01702000,Diğer duvar kaplamaları,4
+761,P01702081,P01702000,Rezerve,4
+762,P01702082,P01702000,Asma Tavanlar (alçıpan),4
+763,P01702083,P01702000,Asma Tavanlar (.........),4
+764,P01702084,P01702000,Rezerve,4
+765,P01702085,P01702000,Kartonpiyer vs süslemeler,4
+766,P01702086,P01702000,Diğer tavan kaplamaları,4
+767,P01702087,P01702000,"Eşik profilleri, dilatasyon profil ve kapakları, şaft kapakları vb elemanlar",4
+768,P01702088,P01702000,"Silikon,mastik vb  dolgular",4
+769,P01702089,P01702000,Rezerve,4
+770,P01702099,P01702000,Diğerleri,4
+771,P01703000,P01700000,Kapılar/Pencereler/Doğramalar,3
+772,P01703001,P01703000,"Kapı kasaları ile ilgili imalatlar (ayarlı sac kapı kasaları, profilden imalatlar vb)",4
+773,P01703002,P01703000,"Kapılar (alüminyum, metal, kaplama, masif vs ; aksesuarları ile beraber )",4
+774,P01703003,P01703000,"Pencere doğramaları (alüminyum,ahşap, PVC)",4
+775,P01703004,P01703000,Kapı ve pencere camları,4
+776,P01703099,P01703000,Diğerleri,4
+777,P01709900,P01700000,Diğer,3
+778,P01709901,P01709900,"Korkuluk ve küpeşteler (ferforje, ahşap vs)",4
+779,P01709902,P01709900,"Sanatçı İşi Çalışmalar (gravür,bezeme, süsleme vb dekoratif elemanlar)",4
+780,P01709903,P01709900,Polikor tezgahlar vb elemanlar,4
+781,P01709904,P01709900,"Bariyerler, yönlendirme çizgileri vb elemanlar",4
+782,P01709905,P01709900,"Kepenk, jaluzi vs imalatlar",4
+783,P01709906,P01709900,Tuvalet kabinleri (Cubicle),4
+784,P01709999,P01709900,Diğer İnce İşler,4
+785,P01800000,P01000000,İzolasyon İşleri,2
+786,P01801000,P01800000,Su izolasyonları,3
+787,P01801001,P01801000,"Bitümen izolasyonları (keçe, bitümlü karton, membranlar vs dahil)",4
+788,P01801002,P01801000,Sürme (sıvı izolasyonlar),4
+789,P01801099,P01801000,Diğer imalatlar,4
+790,P01802000,P01800000,Isı izolasyonları,3
+791,P01802001,P01802000,Isı İzolasyonları,4
+792,P01802099,P01802000,Diğer imalatlar,4
+793,P02000000,MKK,MEKANİK İŞLER,1
+794,P02100000,P02000000,Tesisat ve Sistemler,2
+795,P02101000,P02100000,Sıhhi tesisat,3
+796,P02101001,P02101000,"Temiz Soğuk Su, Sıcak Su Borulamalar (borular, fittingler)",4
+797,P02101002,P02101000,"Atık Su.Yağmur Suyu borulamalar (borular,fittingler)",4
+798,P02101004,P02101000,"Ekipmanlar (pompalar, hidroforlar,tanklar,filtrasyon sistemleri vs)",4
+799,P02101005,P02101000,"Vitrifiye , batarya (finiş elemanları)",4
+800,P02101099,P02101000,Diğerleri,4
+801,P02102000,P02100000,Isıtma-Soğutma,3
+802,P02102001,P02102000,"Isıtma ve Soğutma Sistemleri borulamalar (borular, izolasyonlar dahil-yerden ısıtma sistemleri dahil)",4
+803,P02102002,P02102000,Rezerve,4
+804,P02102003,P02102000,Vanalar ve sair elemanlar,4
+805,P02102004,P02102000,"Ekipmanlar (Chiller, pompalar, kazanlar, brülörler,fancoil vs)",4
+806,P02102005,P02102000,Radyatör vb fikstürler,4
+807,P02102099,P02102000,Diğerleri,4
+808,P02103000,P02100000,HVAC,3
+809,P02103001,P02103000,"HVAC borulamalar (borular, izolasyonlar dahil)",4
+810,P02103002,P02103000,"Havalandırma sistemleri (kanallar, izolasyonlar dahil)",4
+811,P02103003,P02103000,"Egzost sistemleri (fanlar, merdiven basınçlandırmalar,damperler)",4
+812,P02103004,P02103000,"Ekipmanlar (klima santralleri, chillerler,split klima,VRF vs)",4
+813,P02103005,P02103000,"Menfez,anemostad vs",4
+814,P02103099,P02103000,Diğerleri,4
+815,P02104000,P02100000,Yangın söndürme,3
+816,P02104001,P02104000,"Yağmurlama Sistemleri (borulama, fittingler,vanalar vs)",4
+817,P02104002,P02104000,"Yangın Dolapları, sprinklerler,söndürücüler vb finiş elemanları",4
+818,P02104003,P02104000,"Ekipmanlar (pompalar, hidroforlar,tanklar vs)",4
+819,P02104004,P02104000,Gazlı söndürme sistemleri,4
+820,P02104099,P02104000,Diğerleri,4
+821,P02105000,P02100000,Doğalgaz,3
+822,P02105001,P02105000,Doğalgaz dağıtım sistemi imalatları,4
+823,P02200000,P02000000,Özel İmalatlar,2
+824,P02201000,P02200000,Mekanik otomasyon,3
+825,P02201001,P02201000,Otomasyon Sistemleri tüm imalatlar,4
+826,P02201002,P02201000,Akıllı ev benzeri özel sistemler mekanik işleri,4
+827,P02209900,P02200000,Diğer mekanik işler,3
+828,P02209901,P02209900,Sismik koruma sistemleri,4
+829,P02209902,P02209900,"Havuz, jakuzi vs sistemler",4
+830,P02209903,P02209900,"Titreşim yutucular, absorberler",4
+831,P02209904,P02209900,Rezerve,4
+832,P02209905,P02209900,Rezerve,4
+833,P02209999,P02209900,Diğer Mekanik İşler,4
+834,P02402002,P02209900,Metal boya ve koruma işleri,4
+835,P03000000,MKK,ELEKTRİK İŞLERİ,1
+836,P03100000,P03000000,Tesisat ve Sistemler,2
+837,P03101000,P03100000,"Enerji Temini, Alçak Gerilim ve Orta Gerilim",3
+838,P03101001,P03101000,Enerji Nakli (alçak gerilim ve orta gerilim kablolamalar),4
+839,P03101002,P03101000,"Trafo, switchgear vs",4
+840,P03101003,P03101000,Vanalar ve sair elemanlar,4
+841,P03101099,P03101000,Diğerleri,4
+842,P03102000,P03100000,Kuvvetli akım ve sistemleri,3
+843,P03102001,P03102000,"UPS, Jeneratörler",4
+844,P03102002,P03102000,Elektrik Panoları,4
+845,P03102003,P03102000,"Anahtar, priz ve buatlar",4
+846,P03102004,P03102000,Topraklama ve Yıldırımdan Korunma sistemleri,4
+847,P03102005,P03102000,"Kablo taşıyıcı sistemler (tavalar, borular)",4
+848,P03102006,P03102000,"Tüm kablolamalar (kablolar,kablo pabuçları, bağları dahil)",4
+849,P03102007,P03102000,Aydınlatma armatürleri (lambalar dahil),4
+850,P03102008,P03102000,"Şalt malzemeler (kontaktör, röle, otomat, sigorta,şalterler)",4
+851,P03102099,P03102000,"Diğerleri (ör.kapı zilleri, klemensler,sayaçlar)",4
+852,P03200000,P03000000,Özel İmalatlar,2
+853,P03201000,P03200000,Zayıf akım sistemleri,3
+854,P03201001,P03201000,Yangın,4
+855,P03201002,P03201000,Telefon,4
+856,P03201003,P03201000,TV/CCTV,4
+857,P03201004,P03201000,"Ses, ışık,anons ve müzik Sistemi",4
+858,P03201005,P03201000,Data,4
+859,P03201006,P03201000,Güvenlik,4
+860,P03201007,P03201000,Otomasyon Sistemi,4
+861,P03201008,P03201000,Intercom Sistemi,4
+862,P03201009,P03201000,Hırsız Alarm Sistemi,4
+863,P03201010,P03201000,Kartlı Giriş Sistemleri,4
+864,P03201011,P03201000,Akıllı ev benzeri özel sistemler elektrik işleri,4
+865,P03201012,P03201000,Otopark kontrol sistemleri,4
+866,P03201013,P03201000,Turnike sistemleri,4
+867,P03201060,P03201000,ICT Sistemleri,4
+868,P03201099,P03201000,Diğer zayıf akım sistemleri,4
+869,P03209900,P03200000,Diğer,3
+870,P03209901,P03209900,Çevre Aydınlatma (aydınlatma direkleri ve sistemleri),4
+871,P03209999,P03209900,Diğer Elektrik İşleri,4
+872,P03703005,P03209900,Kapı ve pencere aksesuarları,4
+873,P04000000,MKK,ALTYAPI İŞLERİ,1
+874,P04100000,P04000000,Toprak ve Kazı İşleri,2
+875,P04101000,P04100000,Toprak ve kazı işleri,3
+876,P04101001,P04101000,Elle Altyapı Kazısı ve yataklamalar benzeri toprak işleri,4
+877,P04101002,P04101000,Altyapı iksa işleri (palplanş vb imalatlar),4
+878,P04200000,P04000000,Borulama İşleri,2
+879,P04201000,P04200000,Borulama işleri,3
+880,P04201001,P04201000,Drenaj işleri,4
+881,P04201002,P04201000,"Altyapı ekipmanları (tank, hidrant vs)",4
+882,P04201003,P04201000,"Altyapı boruları (korrüge, pvc vs ; sulama sistemleri dahil ; vana, fitting her türlü aksesuar dahil)",4
+883,P04201004,P04201000,Altyapı Bağlantıları,4
+884,P04201050,P04201000,Ortak Zayıf Akım sinyal kabloları,4
+885,P04300000,P04000000,"Menhol, galeri vb işler",2
+886,P04301000,P04300000,"Menhol, galeri vb işler",3
+887,P04301001,P04301000,Menholler (yerinde döküm ya da prekast elemanlarla ),4
+888,P04301099,P04301000,Diğer Altyapı İşleri,4
+889,P05000000,MKK,PEYZAJ ve ÇEVRE DÜZENLEME,1
+890,P05100000,P05000000,Peyzaj ve Çevre Düzenleme,2
+891,P05101000,P05100000,Çevre düzenleme toprak işleri,3
+892,P05101001,P05101000,Tesviye ve reglaj işleri,4
+893,P05102000,P05100000,Sert zemin imalatları (Hardscape),3
+894,P05102001,P05102000,"Kazı, dolgu ve benzeri toprak işleri",4
+895,P05102002,P05102000,Yürüme yolları gibi yayalar için sert zemin imalatları,4
+896,P05102003,P05102000,"Araçlar için sert zemin imalatları (asfalt, stabilize dolgu, kazı, toprak işleri birlikte olmak üzere)",4
+897,P05102099,P05102000,Diğer Sert Zemin imalatları,4
+898,P05103000,P05100000,Yeşillendirme (Softscape),3
+899,P05103001,P05103000,"Ağaçlar, bitki, çim, bitkisel toprak vs",4
+900,P05103099,P05103000,Diğer softscape imalatları,4
+901,P05109900,P05100000,Diğer,3
+902,P05109901,P05109900,"Heykel, bahçe mobilyası vs elemanlar",4
+903,P05109902,P05109900,"Peyzaj strüktürel işler (göletler, köprüler vs)",4
+904,P05109903,P05109900,Ağaç ev vb hazır peyzaj elemanları,4
+905,P05109904,P05109900,"Çevre çiti, çevre duvarı vs",4
+906,P05109905,P05109900,"Bekçi klübesi, nizamiye vb prefabrik imalatlar",4
+907,P05109999,P05109900,Diğer Peyzaj İşleri,4
+908,P06000000,MKK,TAŞIMA SİSTEMLERİ,1
+909,P06100000,P06000000,Taşıma Sistemleri,2
+910,P06101000,P06100000,Yürüyen merdiven ve eskalatörler,3
+911,P06101001,P06101000,Yürüyen Merdiven ve eskalatörler,4
+912,P06101002,P06101000,Asansörler (İnsan ve yük dahil),4
+913,P06101099,P06101000,Diğer Taşıma Sistemleri,4
+914,P06102000,P06100000,Özel Ekipmalnar,3
+915,P06102001,P06102000,Diğer Özel Ekipmanlar (Bagaj taşıma vb. Sistemler),4
+916,P07000000,MKK,"MOBİLYA, TEFRİŞ & TEDARİK İŞLERİ",1
+917,P07100000,P07000000,Mobilya/Tefriş ve temin/tedarik işleri,2
+918,P07101000,P07100000,Mobilya/tefriş ve tedarik,3
+919,P07101001,P07101000,"Sabit mobilyalar (dolaplar,radyatör kapamalar)",4
+920,P07101002,P07101000,"Tefriş ve tedarik (hareketli mobilyalar, yemek takımları, banyo takımları, perdeler vs dahil)",4
+921,P07101003,P07101000,"Beyaz eşya vb elektronik/mekanik ev tefriş malzemeleri (mutfak ekipmanları, tv vs)",4
+922,P07101004,P07101000,Özel tefriş malzemeleri (aydınlatma ve avizeler benzeri ),4
+923,P07101005,P07101000,Sauna vb ahşap imalatlar,4
+924,P07101006,P07101000,Şömine vb elemanlar,4
+925,P07101099,P07101000,Diğerleri,4
+926,P08000000,MKK,ÖZEL İMALATLAR,1
+927,P08100000,P08000000,Özel İmalatlar,2
+928,P08101000,P08100000,Tüm özel imalatlar,3
+929,P08101001,P08101000,Yüzme havuzu inşaası,4
+930,P08101002,P08101000,Akvaryum inşaası,4
+931,P08101003,P08101000,"Buz pateni pisti, halı saha , tenis kortu vb spor sahaları inşaası",4
+932,P08101004,P08101000,Prefabrik elemanlar,4
+933,P08101005,P08101000,Kule inşaası,4
+934,P08101006,P08101000,Radyasyon koruma vb özel amaçlı inşaalar,4
+935,P09000000,MKK,MOBİLİZASYON,1
+936,P09100000,P09000000,Mobilizasyon,2
+937,P09101000,P09100000,Mobilizasyon,3
+938,P09101001,P09101000,Prefabrik Binalar,4
+939,P09101002,P09101000,Ofis ve Kamp Tefriş,4
+940,P09101003,P09101000,"Ofis ve Kamp Sahası tüm İnşaat,Elektik ve Mekanik İşleri",4
+941,P09101004,P09101000,Ofis ve Kamp Sahası - Utilities,4
+942,P09101005,P09101000,Saha İşleri (Altyapı ve Düzeltme),4
+943,P09101007,P09101000,Panik Odası,4
+944,P09101099,P09101000,Diğerleri,4
+945,P99000000,MKK,DİĞERLERİ,1
+946,P99100000,P99000000,Direkt İmalat Giderlerine Paylaştırılacak Ortak Giderler,2
+947,P99101000,P99100000,Sarf malzemeler ve sair malzemeler,3
+948,P99101001,P99101000,Sarf Malzemeler ve Sair Malzemeler,4
+949,P99101002,P99101000,Amortismana tabi olmayan el aletleri,4
+950,P99101003,P99101000,"Tüpler, elektrodlar,kırıcı-delici-kesici uçlar gibi sarf malzemeleri",4
+951,P99101099,P99101000,Diğerleri (iş güvenliği malzemeleri),4
+952,P99102000,P99100000,"Maket, Mock-up vb giderler",3
+953,P99102001,P99102000,Maket ve Mockup yaptırılması,4
+957,MA,Root,MALZEME KIRILIMI,0
+958,MA10010000,MA,Harçlı Malzemeler,1
+959,MA10010100,MA10010000,Yapısal Beton Harçları,2
+960,MA10010200,MA10010000,Asfalt Karışımları,2
+961,MA10010300,MA10010000,Sıva ve Diğer Harçlar,2
+962,MA10010400,MA10010000,Onarım Harçları,2
+963,MA10010500,MA10010000,Yapıştırıcı Harçlar,2
+964,MA10020000,MA,Metaller,1
+965,MA10020100,MA10020000,Yapısal Demir Donatılar ve Profiller,2
+966,MA10020200,MA10020000,Demir ve Çelik Profiller,2
+967,MA10020300,MA10020000,Aluminium Profiller,2
+968,MA10020400,MA10020000,Saclar,2
+969,MA10020500,MA10020000,"Dübel, conta, askı çubukları, vb.",2
+970,MA10020600,MA10020000,Ferforje ve Balasturadeler,2
+971,MA10020700,MA10020000,Metal Asma Tavan Profilleri,2
+972,MA10020800,MA10020000,Derz ve Baskı Profilleri,2
+973,MA10020900,MA10020000,Kenar Profilleri,2
+974,MA10021000,MA10020000,Kalıp ve İskele Ekipmanları,2
+976,MA10030000,MA,"Yapı Blokları (Briket, Tuğla, Fibrobeton, vs.)",1
+977,MA10030100,MA10030000,Tuğlalar,2
+978,MA10030200,MA10030000,Kiremitler,2
+979,MA10030300,MA10030000,Gazbeton Bloklar,2
+980,MA10030400,MA10030000,Kesme Taş Bloklar,2
+981,MA10030500,MA10030000,Briket ve Bims Bloklar,2
+982,MA10030600,MA10030000,Asmolen Bloklar,2
+983,MA10030700,MA10030000,Kilit Taşları,2
+984,MA10030800,MA10030000,Bordürler,2
+985,MA10030900,MA10030000,Alçıpan Paneller,2
+986,MA10031000,MA10030000,Doğal Taş Bloklar,2
+987,MA10040000,MA,Ahşap Malzemeler,1
+988,MA10040100,MA10040000,"Plywood, OSB ve Sunta",2
+989,MA10040200,MA10040000,Ahşap kirişler ve kalaslar,2
+990,MA10040300,MA10040000,Lamine Parkeler,2
+991,MA10040400,MA10040000,Ahşap Çıtalar ve Profiller,2
+992,MA10040500,MA10040000,Masif ahşaplar,2
+993,MA10050000,MA,"Plastik, Cam ve Kompozitler",1
+994,MA10050100,MA10050000,PVC Profiller,2
+995,MA10050200,MA10050000,Su Tutucu Bantlar,2
+996,MA10050300,MA10050000,Membran ve Şilteler,2
+997,MA10050400,MA10050000,EPS Levhalar,2
+998,MA10050500,MA10050000,XPS Levhalar,2
+999,MA10050600,MA10050000,Derz Profilleri,2
+1000,MA10050700,MA10050000,Sandviç Paneller,2
+1001,MA10050800,MA10050000,Fiberglass,2
+1002,MA10050900,MA10050000,Cam ve Aynalar,2
+1003,MA10051000,MA10050000,Lamineted Parkeler (Plastik),2
+1004,MA10060000,MA,Kimyasallar,1
+1005,MA10060100,MA10060000,Beton Katkıları,2
+1006,MA10060200,MA10060000,Sürme izolasyon malzemeleri,2
+1007,MA10060300,MA10060000,Boyalar,2
+1008,MA10060400,MA10060000,Yüzey Sertleştiriciler,2
+1009,MA10060500,MA10060000,Derz Dolguları,2
+1010,MA10070000,MA,Kaplama Malzemeleri,1
+1011,MA10070100,MA10070000,Mermer ve Granitler,2
+1012,MA10070200,MA10070000,Seramik,2
+1013,MA10070201,MA10070200,Islak Hacim Seramikleri,3
+1014,MA10070202,MA10070200,Havuz Seramikleri,3
+1015,MA10070203,MA10070200,Diğer Seramikler,3
+1016,MA10070300,MA10070000,Karo Mozaik,2
+1017,MA10080000,MA,Mobilyalar ve Aksesuarlar,1
+1018,MA10080100,MA10080000,Hareketli Mobilyalar,2
+1019,MA10080200,MA10080000,Sabit Mobilyalar,2
+1020,MA10080300,MA10080000,Doğrama Aksesuarları (Kapı kolları vb.),2
+1021,MA10080400,MA10080000,Aydınlatma armatürleri (lambalar dahil),2
+1022,MA10080500,MA10080000,Elektrik Priz ve Anahtarları,2
+1023,MA10090000,MA,Elektrik Malzemeleri,1
+1024,MA10090100,MA10090000,Elektrik Boruları ve Kasa-Buatlar,2
+1025,MA10090200,MA10090000,Elektrik Tavaları ve Aksesuarları,2
+1026,MA10090300,MA10090000,Orta Gerilim Kabloları,2
+1027,MA10090400,MA10090000,Alçak Gerilim Kabloları,2
+1028,MA10090500,MA10090000,Zayıf Aklım ve Kontrol Kabloları,2
+1029,MA10090600,MA10090000,Junction Malzemeleri,2
+1030,MA10090700,MA10090000,"Şalt malzemeler (kontaktör, röle, otomat, sigorta,şalterler)",2
+1031,MA10090800,MA10090000,Elektronik kontrol sistemleri,2
+1032,MA10100000,MA,Mekanik Malzemeler,1
+1033,MA10100100,MA10100000,Vitrifiyeler,2
+1034,MA10100200,MA10100000,Armatürler,2
+1035,MA10100300,MA10100000,Vanalar ve sair elemanlar,2
+1036,MA10100400,MA10100000,Yangın söndürme sistemi aksesuarları,2
+1037,MA10100500,MA10100000,Islak Hacim Aksesuarları,2
+1038,MA10110000,MA,Elektro-Mekenaik Malzemeler,1
+1039,MA10110100,MA10110000,"Havalandırma Sistemi Malzemeleri (VRV, HVAC)",2
+1040,MA10110200,MA10110000,Taşıma Sistemleri,2
+1041,MA10110300,MA10110000,"Pompalar, Hidroforlar",2
+1042,MA10110400,MA10110000,Kalorifer Sistemi Malzemeleri,2
+1043,MA10120000,MA,Tesisat Mazlemeleri (Altyapı ve Üstyapı),1
+1044,MA10120100,MA10120000,Demir Borular ve Fittingleri,2
+1045,MA10120200,MA10120000,PVC Borular ve Fittingleri,2
+1046,MA10120300,MA10120000,PE Borular ve Fittingleri,2
+1047,MA10120400,MA10120000,Beton Borular ve Fittingleri,2
+1048,MA10120500,MA10120000,GRP Borular ve Fittingleri,2
+1049,MA10120600,MA10120000,Bakır Borular ve Fittingleri,2
+1050,MA10120700,MA10120000,Manholer,2
+1051,MA10120800,MA10120000,Diğer Aksesuarlar,2
+1052,MA10130000,MA,Bitkiler ve Bitki bakım ürünleri,1
+1053,MA10140000,MA,Makine ve Ekipmanlar (Kira ve satınalma bedelleri),1
+1054,MA10140100,MA10140000,Ağır İnşaat Makineleri (Hareketli araçlar),2
+1055,MA10140200,MA10140000,İnşaat Makine ve Ekipmanları,2
+1056,MA10140300,MA10140000,Ufak El Aletleri,2
+1057,MA10140400,MA10140000,Tesisler (Beton santrali vb.),2
+1058,MA10150000,MA,İşçilikler ve Nakliyeler,1
+1059,MA10150100,MA10150000,Dummy İşçilikler ve Nakliyeler,2
+1060,MA10150200,MA10150000,Adam Saat Maliyetleri,2
+1061,MA10150300,MA10150000,Navlun ücretleri,2
+1062,MA10160000,MA,Sarf Malzemeler,1
+1063,MA10160100,MA10160000,Kaynak çubukları ve Kesici Taçlar,2
+1064,MA10160200,MA10160000,"Kalıp, Demir ve Beton İşleri Sarf Malzemeleri",2
+1065,MA10160300,MA10160000,Diğer Sarf Malzemeler,2
+1066,MA10031100,MA10030000,"Fibrebeton, Betopan, vb.",2
+1067,MA10051100,MA10050000,Cam Yünü ve Taş Yünü,2
+1068,MA10051200,MA10050000,Geotextiller,2
+1069,MA10070400,MA10070000,Cam Mozaik,2
+1070,MA10051300,MA10050000,Duvar Kağıtları,2
+1071,MA10120900,MA10120000,Corrugated Borular ve Fittingleri,2
+1072,MA10121000,MA10120000,Drenaj Boruları ve Fittingleri,2
+1081,MA10010600,MA10010000,Temel Harç Hammaddeleri,2
+1082,MA10121100,MA10120000,PPRC Borular ve Fittingleri,2
+1083,MA10140500,MA10140000,Taşıtlar,2
+1084,MA10051400,MA10050000,Sentetik Kaplamalar,2
+1085,P20000000,MKK,MKK Kodu Atanmamış Pozlar,1
+9029,HK,Root,Hizmet Kırılımı,0
+9030,H1000000,HK,Kırım Yıkım Demontaj İşleri,1
+9031,H2000000,HK,Toprak ve Zemin Güçlendirme İşleri,1
+9032,H2010000,H2000000,Kazı İşleri,2
+9033,H2020000,H2000000,Dolgu ve Sıkıştırma İşleri,2
+9034,H2020100,H2020000,Toprak Dolgu Yapılması,3
+9035,H2020200,H2020000,Granüler Dolgu Yapılması ve Granüler Malzeme Serilmesi İşleri,3
+9036,H2020300,H2020000,Harçlı Dolgu Yapılması,3
+9037,H2020400,H2020000,Diğer Dolgu İşleri,3
+9038,H2030000,H2000000,Zemin Güçlendirme İşleri,2
+9039,H2030100,H2030000,Jetgrout Yapılması,3
+9040,H2030200,H2030000,Fore Kazık Yapılması,3
+9041,H2030300,H2030000,Çakma Kazık Yapılması,3
+9042,H2040000,H2000000,Diğer Toprak ve Zemin Güçlendirme İşleri,2
+9043,H3000000,HK,Kaba inşaat İşleri,1
+9044,H3010000,H3000000,Grobeton İşleri,2
+9045,H3020000,H3000000,Taşıyıcı Betonarme İşleri,2
+9046,H3020100,H3020000,Kalıp Yapılması,3
+9047,H3020200,H3020000,Betonarme Demiri İşlenmesi,3
+9048,H3020300,H3020000,Betonarme Betonu Dökülmesi,3
+9049,H3020400,H3020000,Prekast Elemanların Montajı,3
+9050,H3030000,H3000000,Çelik ve Metal Konstriksüyonlar,2
+9051,H3030100,H3030000,Uzaykafes Sistemi İşleri,3
+9052,H3030200,H3030000,Yapıda Taşıyıcı Çelik Konstrüksiyon İşleri,3
+9053,H3030300,H3030000,Çatıda Taşıyıcı Çelik İşleri,3
+9054,H3030400,H3030000,Cephede Taşıyıcı Çelik İşleri,3
+9055,H3040000,H3000000,Prefabrik Bina İmalatları,2
+9056,H3050000,H3000000,"Deprem İzolatörü, Kayar Mesnet, Elastomer Mesnet vb Yardımcı Taşıcı Elemanların Montajı",2
+9057,H4000000,HK,İnce İnşaat İşleri,1
+9058,H4010000,H4000000,Duvar İşleri,2
+9059,H4010100,H4010000,Tuğla Duvar Yapılması,3
+9060,H4010200,H4010000,Briket Duvar Yapılması,3
+9061,H4010300,H4010000,Bims Duvar Yapılması,3
+9062,H4010400,H4010000,Gazbeton Duvar Yapılması,3
+9063,H4010500,H4010000,Cam Tuğla Duvar Yapılması,3
+9064,H4010600,H4010000,Alçıpan Bölme Duvar Yapılması,3
+9065,H4010700,H4010000,Demontable Bölme Duvar Yapılması,3
+9066,H4010800,H4010000,Cubicle Yapılması,3
+9067,H4020000,H4000000,Zemin Kaplama İşleri,2
+9068,H4020100,H4020000,Alt Kat Zemin Kaplama İşleri,3
+9069,H4020101,H4020100,"Harçlı Zemin Kaplaması İşleri (Şap, Eğim Betonu, Koruma Betonu, vb)",4
+9070,H4020102,H4020100,Zemin Su izolasyonu Yapılması İşleri,4
+9071,H4020103,H4020100,Zemin Isı ve Ses İzolasyon Malzemesi Serilmesi İşleri,4
+9072,H4020104,H4020100,"Keçe, Şilte vb Malzemelerin Serilmesi",4
+9073,H4020200,H4020000,Bitiş Katı Zemin Kaplama İşleri,3
+9074,H4020201,H4020200,Doğaltaş Kaplama İşleri,4
+9075,H4020202,H4020200,Seramik Kaplama İşleri,4
+9076,H4020203,H4020200,Ahşap Zemin Kaplama İşleri,4
+9077,H4020204,H4020200,Laminant Plastik Zemin Kaplama İşleri,4
+9078,H4020205,H4020200,"PVC, Taraflex, Linolyum, Vinil vb Sentetik Zemin Kaplama İşleri",4
+9079,H4020206,H4020200,Epoxy Kaplama Yapılması,4
+9080,H4020207,H4020200,Cam Parke Kaplama Yapılması,4
+9081,H4020208,H4020200,Halı Kaplama Yapılması,4
+9082,H4020209,H4020200,Zemin Boya İşleri,4
+9083,H4020300,H4020000,Diğer Zemin Kaplama İşleri,3
+9084,H4020301,H4020300,Süpürgelik Yapılması İşleri,4
+9085,H4020302,H4020300,Yükseltilmiş Döşeme Yapılması,4
+9086,H4020303,H4020300,Zeminde Derz Profili ve Derz Dolgusu İşleri,4
+9087,H4020304,H4020300,Eğik Çatı Kaplama İşleri (Taşıyıcı iskelet hariç),4
+9088,H4030000,H4000000,Duvar Kaplama İşleri,2
+9089,H4030100,H4030000,Alt Kat Duvar Kaplama İşleri,3
+9090,H4030101,H4030100,"Harçlı Duvar Kaplaması İşleri (Sıva, Alçı Sıva, Saten Alçı vb)",4
+9091,H4030102,H4030100,Duvar Su izolasyonu Yapılması İşleri,4
+9092,H4030103,H4030100,Duvar Isı ve Ses İzolasyon Malzemesi Serilmesi İşleri,4
+9093,H4030104,H4030100,"Duvarda keçe , Şilte, vb Malzemelerin Serilmesi",4
+9094,H4030105,H4030100,Duvarda Alçıpan Kaplama Yapılması (Mekanik Taşımalı),4
+9095,H4030200,H4030000,Bitiş Katı Duvar Kaplama İşleri,3
+9096,H4030201,H4030200,Doğaltaş Kaplama İşleri (Mekanik Taşımalı ve Yapıştırma),4
+9097,H4030202,H4030200,Seramik Kaplama İşleri,4
+9098,H4030203,H4030200,Duvarda Mozaik Kaplama Yapılması,4
+9099,H4030204,H4030200,Ahşap Duvar Kaplama İşleri (Mekanik Taşımalı ve Yapıştırma),4
+9100,H4030205,H4030200,Duvar Kağıdı Yapılması,4
+9101,H4030206,H4030200,Kumaş Kaplama Yapılmadı,4
+9102,H4030207,H4030200,Boya Yapılması,4
+9103,H4030300,H4030000,Diğer Duvar Kaplama İşleri,3
+9104,H4030301,H4030300,Duvarda Derz Profili ve Derz Dolgusu İşleri,4
+9105,H4030302,H4030300,Süs Kolonu vb Özel Kaplama İşleri,4
+9106,H4040000,H4000000,Tavan Kaplama İşleri,2
+9107,H4040100,H4040000,"Harçlı Tavan Kaplaması İşleri (Sıva, Alçı Sıva, Saten Alçı vb)",3
+9108,H4040200,H4040000,Boya Yapılması,3
+9109,H4040300,H4040000,Alçıpan Asma Tavan Yapılması,3
+9110,H4040400,H4040000,Metal Asma Tavan Yapılması,3
+9111,H4040500,H4040000,Ahşap Asma Tavan Yapılması,3
+9112,H4040600,H4040000,Tavanda Kartonpiyer vb Süslemelerin Yapılması,3
+9113,H4040700,H4040000,Tavanda Derz Profili ve Derz Dolgusu İşleri,3
+9114,H4040800,H4040000,Diğer Tavan Kaplama İşleri,3
+9115,H4050000,H4000000,Dış Cephe Kaplama İşleri,2
+9116,H4050100,H4050000,Dış Cephe İskelesi Kurulması,3
+9117,H4050200,H4050000,Dış Cephe Harçlı İmalatlar (Sıva vb),3
+9118,H4050300,H4050000,Dış Cephe Su izolasyonu Yapılması,3
+9119,H4050400,H4050000,Dış Cephe Isı izolasyonu Yapılması,3
+9120,H4050500,H4050000,Kompozit Panel Giydirme Cephe Yapılması,3
+9121,H4050600,H4050000,Aluminium Giydirme Cephe Yapılması (Pencere ve Kapılar Dahil),3
+9122,H4050700,H4050000,Fibrebeton Giydirme Cephe Yapılması (Pencere ve Kapılar Dahil),3
+9123,H4050800,H4050000,Ahşap Giydirme Cephe Yapılması,3
+9124,H4060000,H4000000,Doğramalar,2
+9125,H4060100,H4060000,Kapı ve Pencere Körkasası Yapılması,3
+9126,H4060200,H4060000,Ahşap Kapı ve Pencerelerin Montajı,3
+9127,H4060300,H4060000,Aluminium Kapı ve Pencerelerin Montajı,3
+9128,H4060400,H4060000,PVC Kapı ve Pencerelerin Montajı,3
+9129,H4060500,H4060000,Kompozit Kapı ve Pencerelerin Montajı,3
+9130,H4060600,H4060000,Çelik Kapı ve Pencerelerin Montajı,3
+9131,H4060700,H4060000,Yangın Kapıları Montajı,3
+9132,H4060800,H4060000,Pencere Camı Montajı,3
+9133,H4060900,H4060000,Kepenk Yapılması,3
+9134,H4061000,H4060000,Kapı ve Pencere Aksesurları Montajı,3
+9135,H4070000,H4000000,Aksesuarlar ve Diğer İnce İşler,2
+9136,H4070100,H4070000,Korkuluk ve Küpeşte Yapılması,3
+9137,H4070200,H4070000,Otopark Bariyerleri Montajı,3
+9138,H4070300,H4070000,Sanatçı İşi Çalışmalar,3
+9139,H4070400,H4070000,Mutfak Tezgahı Yapılması,3
+9140,H4070500,H4070000,Yönlendirme tabelaları Montajı,3
+9141,H4070600,H4070000,Ferforje İşleri,3
+9142,H5000000,HK,Mekanik İşler,1
+9143,H5010000,H5000000,Borulama İşleri,2
+9144,H5010100,H5010000,HDPE Basınçlı Boru Döşenmesi,3
+9145,H5010200,H5010000,HDPE Korruge Boru Döşenmesi,3
+9146,H5010300,H5010000,PPRC Boru Döşenmesi,3
+9147,H5010400,H5010000,PVC Boru Döşenmesi,3
+9148,H5010500,H5010000,Beton Boru Döşenmesi,3
+9149,H5010600,H5010000,GRP Boru Döşenmesi,3
+9150,H5010700,H5010000,Çelik Boru Döşenmesi,3
+9151,H5010800,H5010000,Bakır Boru Döşenmesi,3
+9152,H5010900,H5010000,Dökme Demir Boru Döşenmesi,3
+9153,H5011000,H5010000,Menfez ve Havalandırma Kanalı Döşenmesi,3
+9154,H5011100,H5010000,Vana Montajı İşleri,3
+9155,H5011200,H5010000,Diğer Boru Montajı İşleri,3
+9156,H5020000,H5000000,Yangın Tesisatı Özel İşleri,2
+9157,H5020100,H5020000,Sprinkler Montajı Yapılması,3
+9158,H5020200,H5020000,Yangın Hidrantı Montajı Yapılması,3
+9159,H5020300,H5020000,Yangın Dolabı Montajı Yapılması,3
+9160,H5020400,H5020000,Yangın Otomasyonu,3
+9161,H5020500,H5020000,Yangın Söndürücü Yerleştirilmesi,3
+9162,H5020600,H5020000,Diğer Yangın Tesisatı İşleri,3
+9163,H5030000,H5000000,İçme Suyu Tesisatı Özel İşleri,2
+9164,H5030100,H5030000,Su Arıtma Cihazı Montajı,3
+9165,H5030200,H5030000,Armatür Montajı Yapılması,3
+9166,H5030300,H5030000,Su Isıtıcı Montajı Yapılması,3
+9167,H5030400,H5030000,Basınç Tankı Montajı Yapılması,3
+9168,H5030500,H5030000,Su Sayacı Montajı Yapılması,3
+9169,H5030600,H5030000,Diğer İçme Suyu Tesisatı İşleri,3
+9170,H5040000,H5000000,Atıksu ve Yağmur Suyu Tesisatı Özel İşleri,2
+9171,H5040100,H5040000,Yağ Ayracı Montajı,3
+9172,H5040200,H5040000,Vitrifiye Montajı,3
+9173,H5040300,H5040000,Yer süzgeçleri Montajı,3
+9174,H5050000,H5000000,Doğalgaz Tesisatı Özel İşleri,2
+9175,H5050100,H5050000,Doğalgaz Sayacı Montajı,3
+9176,H5050200,H5050000,Diğer Doğalgaz Tesisatı İşleri,3
+9177,H5060000,H5000000,Kalorifer Tesisatı Özel İşleri,2
+9178,H5060100,H5060000,Kalorifer Peteği Montajı,3
+9179,H5060200,H5060000,Kalorifer Kazanı Montajı,3
+9180,H5060300,H5060000,Yakıt Tankı Montajı,3
+9181,H5070000,H5000000,Sulama Tesisatı Özel İşleri,2
+9182,H5070100,H5070000,Sulama sprinkler montajı,3
+9183,H5070200,H5070000,Selonoid vana montajı,3
+9184,H5070300,H5070000,Sulama sistemi otomasyonu yapılması,3
+9185,H6000000,HK,Elektrik İşleri,1
+9186,H6010000,H6000000,Elektrik Borulama İşleri,2
+9187,H6020000,H6000000,Elektrik Kablolama İşleri,2
+9188,H6020100,H6020000,Orta ve Yüksek Gerilim Kablolama İşleri,3
+9189,H6020200,H6020000,Alçak Gerilim Kablolama İşleri,3
+9190,H6020300,H6020000,Zayıf Akım Kablolama İşleri,3
+9191,H6030000,H6000000,Trafo Montajı İşleri,2
+9192,H6040000,H6000000,Pano ve Şalt Malzemelerinin Montajı,2
+9193,H6050000,H6000000,Anahtar Priz Montajı İşleri,2
+9194,H6060000,H6000000,Armatür-Aplik Montajı İşleri,2
+9195,H6070000,H6000000,Otomasyon Sistemi Montajı,2
+9196,H6070100,H6070000,Telefon Santrali Sistemi Montajı,3
+9197,H6070200,H6070000,Güvenlik - Alarm Sistemi Montajı (Kameralar dahil),3
+9198,H6070300,H6070000,Seslendirme ve Anons Sistemi Montajı,3
+9199,H6070400,H6070000,Bina Otomasyon Sistemi Montajı,3
+9200,H6070500,H6070000,Diğer Otomasyon Sistemleri Montajı,3
+9201,H6080000,H6000000,Otomasyon Harici Ekipmanların Montajı,2
+9202,H6080100,H6080000,Beyaz Eşyaların Montajı,3
+9203,H6080200,H6080000,"Ses ve Görüntüleme Sistemleri Montajı (Hoporlör, TV, Projeksiyon vb)",3
+9204,H7000000,HK,Elektro-Mekanik İşler,1
+9205,H7010000,H7000000,Yatay ve Dikey Taşıma Sistemi İşleri,2
+9206,H7020000,H7000000,Havalandırma ve İklimlendirme Sitemi İşleri,2
+9207,H7020100,H7020000,Chiller ve Kazan Dairesi Montajı İşleri,3
+9208,H7020200,H7020000,VRV Dış ve İç Ünite Montajı İşleri,3
+9209,H7020300,H7020000,Klima Montajı İşleri,3
+9210,H7030000,H7000000,Pompa Montajı İşleri,2
+9211,H7040000,H7000000,Giriş Güvenlik Sistemleri Montajı,2
+9212,H8000000,HK,Peyzaj İşleri,1
+9213,H8010000,H8000000,Hard Landscaping İşleri,2
+9214,H8010100,H8010000,Çocuk Oyun Alanları Ekipmanları Montajı,3
+9215,H8010200,H8010000,Bayrak Direği Montajı,3
+9216,H8010300,H8010000,Çöp Tenekesi Yerleştirilmesi ve Montajı,3
+9217,H8010400,H8010000,Bilgilendirme Tabelaları Montajı,3
+9218,H8010500,H8010000,Piknik masası ve Bankların Montajı,3
+9219,H8010600,H8010000,Hazır Süs Havuzu Montajı,3
+9220,H8010700,H8010000,Çevre Aydınlatma Direkleri Montajı,3
+9221,H8010800,H8010000,"Büst, Heykel vb Montajı",3
+9222,H8020000,H8000000,Soft Landscaping İşleri,2
+9223,H8020100,H8020000,"Bitkiler İçin Toprak Hazırlığı, Gübrelemesi ve Bakımı İşleri",3
+9224,H8020200,H8020000,Bitkilendirme İşleri,3
+9225,H9000000,HK,Mobilya Tefriş Dedarik İşleri,1
+9226,H9010000,H9000000,Sabit Mobilya Montajı İşleri,2
+9227,H9020000,H9000000,Hareketli Mobilya Montajı İşleri,2

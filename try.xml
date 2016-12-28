@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<book>
+	<name>Name</name>
+	<text>Text</text>
+</book>
+<book>
+	<name>Name 2</name>
+	<text>Text 2</text>
+</book>
+</root>
